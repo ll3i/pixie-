@@ -48,6 +48,12 @@ SAMPLE_NEWS = [
 @app.route('/')
 def index():
     """메인 페이지"""
+    # Vercel에서는 정적 HTML 직접 반환
+    import os
+    html_path = os.path.join(os.path.dirname(__file__), 'index.html')
+    if os.path.exists(html_path):
+        with open(html_path, 'r', encoding='utf-8') as f:
+            return f.read()
     return render_template('index.html')
 
 @app.route('/survey')
