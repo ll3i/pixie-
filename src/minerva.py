@@ -724,7 +724,7 @@ if __name__ == "__main__":
         print(value[:100] + "...")
 
     app = QApplication(sys.argv)
-    api_key = "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"  # API 키를 적절히 관리해야 합니다
+    api_key = os.getenv('OPENAI_API_KEY', '')  # 환경 변수에서 API 키 가져오기
     gui = ChatbotGUI(api_key, personalized_prompts)
     gui.show()
     sys.exit(app.exec_())
