@@ -8,6 +8,7 @@ import json
 from datetime import datetime
 import uuid
 from dotenv import load_dotenv
+import random
 
 # 환경 변수 로드
 load_dotenv()
