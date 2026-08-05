@@ -80,8 +80,8 @@ def test_survey_score_api():
     """CLOVA Studio API를 테스트하여 설문 분석 결과를 확인합니다."""
     # API 설정
     host = "https://clovastudio.stream.ntruss.com"
-    api_key = "Bearer nv-e302186b2e7640d38c732700bd828020zBct"
-    request_id = "3d487f4d478e4a2a8a86d7d4fe509b76"
+    api_key = 'Bearer ' + os.environ.get('CLOVA_API_KEY', '')
+    request_id = os.environ.get('CLOVA_REQUEST_ID', '')
     
     # API 실행기 생성
     executor = CompletionExecutor(

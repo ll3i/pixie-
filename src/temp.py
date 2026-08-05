@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import math
 import re
@@ -89,9 +90,9 @@ questions = [
 # Chat Completion 실행기 초기화
 completion_executor = CompletionExecutor(
     host="https://clovastudio.apigw.ntruss.com",
-    api_key='NTA0MjU2MWZlZTcxNDJiY6yXz/WB7l+4+xfKx19irvCn79XT+YIlOBzoWEOuWvys', #
-    api_key_primary_val='ldCsKr7kX06FeipjEc8gg84t4A8Ad8ILUIVKN0BR', # api 연결해야함 
-    request_id='d764eebd-e3a7-41d6-9db2-1b90c12e8754'
+    api_key=os.environ.get('CLOVA_API_KEY', ''),  #
+    api_key_primary_val=os.environ.get('CLOVA_API_KEY_PRIMARY', ''),  # api 연결해야함 
+    request_id=os.environ.get('CLOVA_REQUEST_ID', '')
 )
 total_scores = {
         "risk_tolerance": 0, "investment_time_horizon": 0, "financial_goal_orientation": 0, "information_processing_style": 0, "investment_fear": 0,
