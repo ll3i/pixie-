@@ -1,3 +1,5 @@
+![banner](assets/banner.svg)
+
 # Pixie — 개인화 AI 투자 어드바이저
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -16,6 +18,12 @@
 **Pixie**는 투자 성향 설문으로 만든 개인 프로필을 바탕으로, 멀티에이전트 LLM 체인이 한국 주식 데이터·뉴스 감성 분석과 결합해 맞춤형 투자 상담을 제공하는 Flask 기반 웹 서비스입니다. 투자 초보자를 위한 교육 콘텐츠와 ARIMA-X 기반 주가 예측까지 하나의 서비스로 묶었습니다.
 
 > 투자 판단의 최종 책임은 사용자에게 있으며, 본 서비스의 결과는 투자 권유가 아닌 참고 정보입니다.
+
+## 미리보기
+
+웹 데모 화면 — [정적 데모 사이트](https://ll3i.github.io/pixie/)에서 직접 볼 수 있습니다.
+
+![Pixie 웹 데모](assets/preview.jpg)
 
 ## 계열 리포지토리
 
