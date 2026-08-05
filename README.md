@@ -23,6 +23,14 @@
 
 ![프로젝트 개요](assets/overview.svg)
 
+### 시스템 아키텍처
+
+![시스템 아키텍처](assets/architecture.svg)
+
+### 주요 결과
+
+![주요 결과](assets/results.svg)
+
 ## 미리보기
 
 웹 데모 화면 — [정적 데모 사이트](https://ll3i.github.io/pixie/)에서 직접 볼 수 있습니다.

@@ -1,0 +1,55 @@
+<svg width="1280" height="560" viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pixie key results">
+  <style>
+    .sans { font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace; }
+  </style>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1280" height="560" fill="#F7F9FB"/>
+
+  <!-- ═ header band ═ -->
+  <rect x="72" y="44" width="4" height="34" rx="2" fill="#1454FE"/>
+  <text class="mono" x="90" y="57" font-size="13" letter-spacing="3" fill="#1454FE">RESULTS</text>
+  <text class="sans" x="88" y="99" font-size="34" font-weight="800" letter-spacing="-0.5" fill="#161B24">Pixie<tspan fill="#3B7AFF">.</tspan></text>
+  <text class="mono" x="1208" y="57" font-size="13" fill="#94A0B0" text-anchor="end">ll3i &#183; pixie-</text>
+
+  <!-- ═ metric tiles ═ -->
+  <rect x="72" y="160" width="272" height="168" rx="16" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text class="mono" x="96" y="240" font-size="40" font-weight="700" fill="#1454FE">3단</text>
+  <text class="sans" x="96" y="272" font-size="13" fill="#6B7686">멀티에이전트 체인</text>
+  <text class="sans" x="96" y="292" font-size="12" fill="#94A0B0">AI-A &#8594; AI-A2 &#8594; AI-B</text>
+
+  <rect x="360" y="160" width="272" height="168" rx="16" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text class="mono" x="384" y="240" font-size="40" font-weight="700" fill="#1454FE">6개</text>
+  <text class="sans" x="384" y="272" font-size="13" fill="#6B7686">Blueprint 모듈</text>
+  <text class="sans" x="384" y="292" font-size="12" fill="#94A0B0">도메인별 라우팅 분리</text>
+
+  <rect x="648" y="160" width="272" height="168" rx="16" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text class="mono" x="672" y="240" font-size="40" font-weight="700" fill="#1454FE">2종</text>
+  <text class="sans" x="672" y="272" font-size="13" fill="#6B7686">LLM 프로바이더</text>
+  <text class="sans" x="672" y="292" font-size="12" fill="#94A0B0">OpenAI &#8596; CLOVA 폴백</text>
+
+  <rect x="936" y="160" width="272" height="168" rx="16" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <circle cx="982" cy="224" r="22" fill="#1454FE"/>
+  <path d="M971 224 l8 8 l15 -17" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="sans" x="960" y="272" font-size="13" fill="#6B7686">ARIMA-X 예측 엔진</text>
+  <text class="sans" x="960" y="292" font-size="12" fill="#94A0B0">뉴스 감성 가중 반영</text>
+
+  <!-- ═ deliverables ═ -->
+  <text class="mono" x="72" y="384" font-size="12" letter-spacing="2" fill="#6B7686">DELIVERABLES</text>
+
+  <rect x="72" y="402" width="176" height="38" rx="19" fill="#F0F4FF"/>
+  <text class="sans" x="160" y="426" font-size="13" font-weight="500" fill="#16314F" text-anchor="middle">투자 성향 6지표 프로필</text>
+  <rect x="260" y="402" width="122" height="38" rx="19" fill="#F0F4FF"/>
+  <text class="sans" x="321" y="426" font-size="13" font-weight="500" fill="#16314F" text-anchor="middle">맞춤 상담 챗봇</text>
+  <rect x="394" y="402" width="136" height="38" rx="19" fill="#F0F4FF"/>
+  <text class="sans" x="462" y="426" font-size="13" font-weight="500" fill="#16314F" text-anchor="middle">주가 예측 리포트</text>
+  <rect x="542" y="402" width="154" height="38" rx="19" fill="#F0F4FF"/>
+  <text class="sans" x="619" y="426" font-size="13" font-weight="500" fill="#16314F" text-anchor="middle">투자 용어 학습&#183;퀴즈</text>
+  <rect x="708" y="402" width="230" height="38" rx="19" fill="#F0F4FF"/>
+  <text class="sans" x="823" y="426" font-size="13" font-weight="500" fill="#16314F" text-anchor="middle">정적 데모 사이트 (GitHub Pages)</text>
+
+  <!-- ═ footer ═ -->
+  <line x1="72" y1="496" x2="1208" y2="496" stroke="#C7CFDA" stroke-width="1"/>
+  <text class="mono" x="72" y="522" font-size="12" fill="#94A0B0">repo: pixie- &#183; Flask &#183; LLM chain &#215;3 &#183; Blueprint &#215;6 &#183; OpenAI &#8596; CLOVA &#183; GitHub Pages demo</text>
+</svg>
