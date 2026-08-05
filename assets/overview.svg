@@ -1,0 +1,79 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pixie 프로젝트 개요">
+  <!-- background -->
+  <rect x="0" y="0" width="1280" height="640" fill="#F7F9FB"/>
+
+  <!-- ===== header band (0~120) ===== -->
+  <rect x="72" y="43" width="4" height="34" rx="2" fill="#1454FE"/>
+  <text x="90" y="55" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="13" letter-spacing="3" fill="#1454FE">AI · FINTECH</text>
+  <text x="90" y="92" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5" fill="#161B24">Pixie<tspan fill="#3B7AFF">.</tspan></text>
+  <text x="1208" y="90" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="13" fill="#94A0B0">ll3i · pixie-</text>
+
+  <!-- ===== row 1 : steps 01-03 ===== -->
+  <!-- STEP 01 -->
+  <rect x="72" y="160" width="340" height="150" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <text x="96" y="191" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#3B7AFF">STEP 01</text>
+  <text x="96" y="220" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="19" font-weight="700" fill="#161B24">투자 성향 설문</text>
+  <text x="96" y="249" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">리스크·기간·목표 문항으로</text>
+  <text x="96" y="271" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">투자자 응답 수집</text>
+
+  <!-- arrow 01 -> 02 -->
+  <line x1="420" y1="235" x2="452" y2="235" stroke="#C7CFDA" stroke-width="2"/>
+  <polygon points="452,229 452,241 462,235" fill="#C7CFDA"/>
+
+  <!-- STEP 02 -->
+  <rect x="470" y="160" width="340" height="150" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <text x="494" y="191" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#3B7AFF">STEP 02</text>
+  <text x="494" y="220" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="19" font-weight="700" fill="#161B24">6지표 프로필 분석</text>
+  <text x="494" y="249" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">위험감수성·투자기간 등</text>
+  <text x="494" y="271" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">6개 지표로 성향 프로필 산출</text>
+
+  <!-- arrow 02 -> 03 (accent emphasis) -->
+  <line x1="818" y1="235" x2="850" y2="235" stroke="#1454FE" stroke-width="2"/>
+  <polygon points="850,229 850,241 860,235" fill="#1454FE"/>
+
+  <!-- STEP 03 : ink emphasis card -->
+  <rect x="868" y="160" width="340" height="150" rx="14" fill="#0B1B33"/>
+  <text x="892" y="191" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#CADBFF">STEP 03</text>
+  <text x="892" y="220" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="19" font-weight="700" fill="#EDF1F7">멀티에이전트 체인</text>
+  <rect x="892" y="234" width="204" height="28" rx="8" fill="#16314F"/>
+  <text x="994" y="253" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="13" fill="#CADBFF">AI-A → AI-A2 → AI-B</text>
+  <text x="892" y="290" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#C7CFDA">OpenAI ↔ CLOVA 폴백 구조</text>
+
+  <!-- wrap connector : step 03 -> step 04 -->
+  <path d="M 1038 310 L 1038 342 Q 1038 350 1030 350 L 250 350 Q 242 350 242 358 L 242 378" fill="none" stroke="#C7CFDA" stroke-width="2"/>
+  <polygon points="236,378 248,378 242,388" fill="#C7CFDA"/>
+
+  <!-- ===== row 2 : steps 04-06 ===== -->
+  <!-- STEP 04 -->
+  <rect x="72" y="390" width="340" height="150" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <text x="96" y="421" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#3B7AFF">STEP 04</text>
+  <text x="96" y="450" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="19" font-weight="700" fill="#161B24">시맨틱 검색</text>
+  <text x="96" y="479" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">KoSBERT 임베딩 + FAISS 인덱스</text>
+  <text x="96" y="501" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">금융 지식 유사 문서 탐색</text>
+
+  <!-- arrow 04 -> 05 -->
+  <line x1="420" y1="465" x2="452" y2="465" stroke="#C7CFDA" stroke-width="2"/>
+  <polygon points="452,459 452,471 462,465" fill="#C7CFDA"/>
+
+  <!-- STEP 05 -->
+  <rect x="470" y="390" width="340" height="150" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <text x="494" y="421" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#3B7AFF">STEP 05</text>
+  <text x="494" y="450" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="19" font-weight="700" fill="#161B24">ARIMA-X 주가 예측</text>
+  <text x="494" y="479" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">뉴스 감성 점수를 외생변수로</text>
+  <text x="494" y="501" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">가중한 시계열 흐름 전망</text>
+
+  <!-- arrow 05 -> 06 -->
+  <line x1="818" y1="465" x2="850" y2="465" stroke="#C7CFDA" stroke-width="2"/>
+  <polygon points="850,459 850,471 860,465" fill="#C7CFDA"/>
+
+  <!-- STEP 06 -->
+  <rect x="868" y="390" width="340" height="150" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <text x="892" y="421" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#3B7AFF">STEP 06</text>
+  <text x="892" y="450" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="19" font-weight="700" fill="#161B24">상담·포트폴리오 리포트</text>
+  <text x="892" y="479" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">성향 프로필 기반 맞춤 상담과</text>
+  <text x="892" y="501" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13.5" fill="#6B7686">포트폴리오 리포트 제공</text>
+
+  <!-- ===== footer ===== -->
+  <line x1="72" y1="600" x2="1208" y2="600" stroke="#C7CFDA" stroke-width="1"/>
+  <text x="72" y="625" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" fill="#94A0B0">Flask Blueprint · OpenAI/CLOVA · ko-sbert-multitask · FAISS · statsmodels · Supabase/SQLite</text>
+</svg>
