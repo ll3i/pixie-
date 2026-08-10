@@ -25,7 +25,7 @@
 
 ### 시스템 아키텍처
 
-![시스템 아키텍처](assets/architecture.svg)
+![시스템 아키텍처](assets/architecture.png)
 
 ### 주요 결과
 
@@ -35,7 +35,17 @@
 
 웹 데모 화면 — [정적 데모 사이트](https://ll3i.github.io/pixie/)에서 직접 볼 수 있습니다.
 
-![Pixie 웹 데모](assets/preview.jpg)
+### 메인 — 오늘의 이슈 종목 · 트렌드 맵
+
+![Pixie 메인 화면](assets/preview-main.png)
+
+### 투자 성향 설문 (10문항)
+
+![투자 성향 설문](assets/preview-survey.png)
+
+### 설문 결과 — 6개 지표 성향 분석
+
+![투자 성향 분석 결과](assets/preview-survey-result.png)
 
 ## 계열 리포지토리
 
