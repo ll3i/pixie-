@@ -98,60 +98,6 @@
 
 ## 아키텍처
 
-```mermaid
-flowchart TB
-    subgraph Client["클라이언트"]
-        UI["웹 UI (Bootstrap 5 · Chart.js)<br/>설문 / 챗봇(SSE) / 주가 · 뉴스 대시보드 / 학습"]
-    end
-
-    subgraph Flask["Flask 애플리케이션"]
-        APP["app.py — 메인 엔트리 (라우팅)"]
-        subgraph BP["Blueprints"]
-            AUTH["auth"]
-            CHAT["chat /api"]
-            STOCK["stock /api/stock"]
-            NEWS["news"]
-            LEARN["learning"]
-            ALERT["alerts"]
-        end
-    end
-
-    subgraph Service["서비스 레이어 (services/ · src/)"]
-        ADVISOR["InvestmentAdvisor<br/>AI-A → AI-A2 → AI-B → Final"]
-        LLM["LLMService<br/>OpenAI ↔ CLOVA 폴백"]
-        FDP["FinancialDataProcessor<br/>KoSBERT + FAISS 검색"]
-        PRED["AdvancedStockPredictor<br/>ARIMA-X + 감성 가중"]
-        SENT["NewsSentimentAnalyzer<br/>키워드 감성 사전"]
-        SVC["survey · user · learning<br/>alert · database services"]
-    end
-
-    subgraph Data["데이터 레이어"]
-        SUPA[("Supabase<br/>(운영 기본)")]
-        SQLITE[("SQLite<br/>(로컬 폴백/캐시)")]
-        VEC[("FAISS 인덱스 ·<br/>종목 CSV/PKL")]
-    end
-
-    subgraph Ext["외부 API"]
-        OPENAI["OpenAI GPT-4o-mini"]
-        CLOVA["Naver CLOVA Studio"]
-        NAVER["네이버 뉴스"]
-    end
-
-    UI --> APP
-    APP --> BP
-    BP --> Service
-    APP --> Service
-    ADVISOR --> LLM
-    ADVISOR --> FDP
-    LLM --> OPENAI
-    LLM --> CLOVA
-    SENT --> NAVER
-    PRED --> SENT
-    FDP --> VEC
-    SVC --> SUPA
-    SVC --> SQLITE
-```
-
 DB 접근은 `src/db_client.py`의 이중 전략(dual strategy)을 따릅니다 — Supabase 환경변수가 설정되면 Supabase를 우선 사용하고, 없으면 SQLite로 동작합니다.
 
 ## 프로젝트 구조
