@@ -19,6 +19,24 @@
 
 > 투자 판단의 최종 책임은 사용자에게 있으며, 본 서비스의 결과는 투자 권유가 아닌 참고 정보입니다.
 
+## 🏆 수상 내역
+
+| 수상 | 대회 · 주최 | 비고 |
+|---|---|---|
+| **장려상** | 한양대학교 데이터사이언스학부 「2025학년도 졸업프로젝트 발표회」 (2025.12.23) | **본 프로젝트** — *Pixie: AI-Agent Personalized Investment Service* (김선권, 황병웅) |
+| **이그노벨상** | 한양대학교 × 현대엔지비 산업AI 인재양성 부트캠프 · AI Agent 해커톤 (2026.01.28) | 팀 Sugarlux — [ai_agent_h](https://github.com/ll3i/ai_agent_h) |
+| **대상** | 2024 환경 데이터 활용 및 분석 공모전 | 팀 S.S.E — [env-data-recycling-ml-2024](https://github.com/ll3i/env-data-recycling-ml-2024) |
+
+<p align="center">
+  <img src="assets/award/hanyang-graduation-project-award.jpg" width="360" alt="한양대학교 졸업프로젝트 장려상 상장" />
+</p>
+
+## 🎬 데모 영상
+
+[![Pixie 데모 영상](assets/preview-main.png)](assets/demo/pixie-demo.mp4)
+
+▶️ **[데모 영상 보기 — User-Personalized Investment App (MP4, 10.4MB)](assets/demo/pixie-demo.mp4)**
+
 ## 한눈에 보기
 
 ![프로젝트 개요](assets/overview.svg)
